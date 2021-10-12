@@ -1,0 +1,36 @@
+body {
+
+  background:linear-gradient(red,blue);
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-bottom: 20px;
+
+}
+
+#modal_open_btn {
+
+  float: right;
+
+}
+
+p {
+
+  font-weight: bold;
+
+}
+
+canvas {
+
+  background-color: white;
+  border: yellow;
+  border-width: 5px;
+  margin-top: 20px;
+  @keyframes examples{
+
+    from{box-shadow : 1px, 1px, 38px, yellow;}
+    to{box-shadow : 1px, 1px, 38px, yellow;}
+
+  }
+
+}
